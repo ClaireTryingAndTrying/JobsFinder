@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.DerbyDialect</property>
+    <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.ClientDriver</property>
+    <property name="hibernate.connection.url">jdbc:derby://localhost:1527/EBizTermProjectDB</property>
+    <property name="hibernate.connection.username">test</property>
+    <property name="hibernate.connection.password">test</property>
+    <property name="hibernate.show_sql">true</property>
+    <mapping resource="hibernate/mapping/UserJob.hbm.xml"/>
+    <mapping resource="hibernate/mapping/Users.hbm.xml"/>
+    <mapping resource="hibernate/mapping/UserInfo.hbm.xml"/>
+    <mapping resource="hibernate/mapping/Job.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>

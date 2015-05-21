@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 19, 2015 10:36:16 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.User" optimistic-lock="version" schema="TEST" table="USERS">
+        <id name="id" type="string">
+            <column name="ID"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="name" type="string">
+            <column name="NAME"/>
+        </property>
+        <property name="password" type="string">
+            <column name="PASSWORD"/>
+        </property>
+        <property name="email" type="string">
+            <column name="EMAIL"/>
+        </property>
+        <property name="role" type="string">
+            <column name="ROLE"/>
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 8, 2014, 2:56:58 PM
+    Author     : birui
+*/
+
+.navbar-default{
+    background-color: #0099CC !important;
+
+}
+
+.navbar-default a,
+.navbar-brand{
+    color: #ffffff !important;    
+}
+
+.btn-primary{
+    background-color: #0099CC !important;
+}
+
+.row-main{
+    margin-top:6% !important;
+}
+.panel-body{
+    padding-top: 8% !important;
+}
+.panel-table{
+    padding-top: 1% !important;
+    text-align: center;
+}
+thead{
+    font-size: large;
+}
+.form-group .signup{
+    padding-top: 3% !important;
+}
+
+.modal{
+    margin-top: 10% !important;
+}
+
+
+.comment{
+    margin: 0.5em 1em 0.5em 1em;
+    padding-bottom: 0.5em;
+}
+
+.reply{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.post{
+    margin-top: 5%;
+}
+.pic{
+    margin-top: 4%;
+}
+.input{
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+.submit{
+    margin-top: 2%;
+}
+/*.btn-cmt{
+    background-color: #ccc!important;
+    border-color: #ffffff !important;
+}
+
+.btn-up{
+    background-color: #ccc!important;
+    border-color: #ffffff !important;
+}*/
+
+.navbar-right > .active > a,
+.navbar-right > .active > a:hover,
+.navbar-right > .active > a:focus {
+    color: #0099CC !important;
+    background-color: #fff !important;
+    border-bottom: 10px solid #0099CC;
+    padding-bottom: 5px;
+    border-top: 10px solid #0099CC;
+    padding-top: 5px;
+}
+
+.sidebar {
+    position: fixed;
+    top: -30px;
+    bottom: 0px;
+    margin-bottom: 20px;
+    display: block;
+    padding: 80px;
+    background-color: #F5F5F5;
+}
+
+
+

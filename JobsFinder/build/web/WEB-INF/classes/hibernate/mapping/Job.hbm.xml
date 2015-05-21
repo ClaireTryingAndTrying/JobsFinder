@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 19, 2015 10:36:16 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.Job" optimistic-lock="version" schema="TEST" table="JOB">
+        <id name="id" type="string">
+            <column name="ID"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="title" type="string">
+            <column name="TITLE"/>
+        </property>
+        <property name="description" type="string">
+            <column name="DESCRIPTION"/>
+        </property>
+        <property name="requirement" type="string">
+            <column name="REQUIREMENT"/>
+        </property>
+        <property name="cname" type="string">
+            <column name="CNAME"/>
+        </property>
+        <property name="ctype" type="string">
+            <column name="CTYPE"/>
+        </property>
+        <property name="cindustry" type="string">
+            <column name="CINDUSTRY"/>
+        </property>
+        <property name="website" type="string">
+            <column name="WEBSITE"/>
+        </property>
+        <property name="location" type="string">
+            <column name="LOCATION"/>
+        </property>
+        <property name="cdescription" type="string">
+            <column name="CDESCRIPTION"/>
+        </property>
+    </class>
+</hibernate-mapping>

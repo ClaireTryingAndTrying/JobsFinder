@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 19, 2015 10:36:16 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="model.UserInfo" optimistic-lock="version" schema="TEST" table="USER_INFO">
+        <id name="id" type="string">
+            <column name="ID"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="firstname" type="string">
+            <column name="FIRSTNAME"/>
+        </property>
+        <property name="lastname" type="string">
+            <column name="LASTNAME"/>
+        </property>
+        <property name="age" type="java.lang.Integer">
+            <column name="AGE"/>
+        </property>
+        <property name="skills" type="string">
+            <column name="SKILLS"/>
+        </property>
+        <property name="resume" type="string">
+            <column name="RESUME"/>
+        </property>
+    </class>
+</hibernate-mapping>
